@@ -22,7 +22,7 @@ export function Astronaut(props) {
 }, [actions, animations]);
 
 const yPosition = useMotionValue(5);
-const ySpring = useSpring(yPosition, {damping: 3});
+const ySpring = useSpring(yPosition, {damping: 30});
 useEffect(()=>{ySpring.set(-1)},[ySpring]);
 useFrame(()=>{
     group.current.position.y = ySpring.get();
