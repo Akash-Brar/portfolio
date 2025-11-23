@@ -15,7 +15,7 @@ const About = () => {
                 <img src="assets/coding-pov.png" className="absolute scale-[1.75] -right-[5rem] -top-[1rem] md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[2.5]" />
                 <div className="z-1">
                     <p className="headtext">Hi, I'm Akash Brar</p>
-                    <p className="subtext">Over the last 4 years, I developed my frontend and backend dev skills to deliver dynamic and software and web applications.</p>
+                    <p className="subtext">A passionate developer with a deep curiosity for building everything from interactive web apps to analytical and systems level software.</p>
                 </div>
                 <div className="absolute inset-x-0 pointer-events-none -bottom-4-h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo"/>
             </div>
