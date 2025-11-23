@@ -20,5 +20,5 @@ const App = () => {
     <Footer/>
   </div>;
 };
-// test
+
 export default App;
