@@ -132,7 +132,7 @@ export const myProjects = [
       },
       {
         id: 2,
-        name: "HTML5",
+        name: "HTML",
         path: "/assets/logos/html5.svg",
       },
       {
@@ -149,23 +149,23 @@ export const myProjects = [
   },
   {
     id: 5,
-    title: "Overwatch Items Tracker",
+    title: "WordPress Custom Theme",
     description:
-      "Designed a web application for browsing and tracking Overwatch Battle Pass cosmetics.",
+      "A fully customizable WordPress theme optimized for performance and SEO.",
     subDescription: [
-      "- Built a comprehensive database tracking every cosmetic item across all Battle Pass seasons.",
-      "- Implemented advanced filtering and search functionality, including role-based filtering, real-time hero name search, and multiple sort options.",
-      "- Designed an immersive, responsive UI with Overwatch-themed effects, role-based color coding, and seamless adaptation across all devices.",
-      "- Webscrapes data from the Overwatch wiki using Python and BeautifulSoup, ensuring the database remains up-to-date with the latest cosmetic items.",
+      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
+      "Integrated Tailwind CSS for modern styling and UI enhancements.",
+      "Optimized SEO and page speed using Vite.js for fast builds.",
+      "Implemented custom widgets and plugin compatibility for extended functionality.",
     ],
-    href: "https://github.com/Akash-Brar/overwatch-bp",
+    href: "",
     logo: "",
-    image: "/assets/projects/overwatch-bp.png",
+    image: "/assets/projects/wordpress-theme.jpg",
     tags: [
       {
         id: 1,
-        name: "Python",
-        path: "/assets/logos/python.svg",
+        name: "WordPress",
+        path: "/assets/logos/wordpress.svg",
       },
       {
         id: 2,
@@ -179,48 +179,48 @@ export const myProjects = [
       },
       {
         id: 4,
-        name: "Javascript",
-        path: "/assets/logos/javascript.svg",
+        name: "Vite.js",
+        path: "/assets/logos/vitejs.svg",
       },
     ],
   },
-  // {
-  //   id: 6,
-  //   title: "Online Learning Platform",
-  //   description:
-  //     "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
-  //   subDescription: [
-  //     "Built using Blazor WebAssembly for a seamless SPA experience.",
-  //     "Implemented video streaming with Azure Media Services.",
-  //     "Added a quiz system with dynamic question generation and real-time grading.",
-  //     "Integrated Stripe API for secure payment processing.",
-  //   ],
-  //   href: "",
-  //   logo: "",
-  //   image: "/assets/projects/elearning.jpg",
-  //   tags: [
-  //     {
-  //       id: 1,
-  //       name: "Blazor",
-  //       path: "/assets/logos/blazor.svg",
-  //     },
-  //     {
-  //       id: 2,
-  //       name: "Azure",
-  //       path: "/assets/logos/azure.svg",
-  //     },
-  //     {
-  //       id: 3,
-  //       name: "Stripe",
-  //       path: "/assets/logos/stripe.svg",
-  //     },
-  //     {
-  //       id: 4,
-  //       name: "TailwindCSS",
-  //       path: "/assets/logos/tailwindcss.svg",
-  //     },
-  //   ],
-  // },
+  {
+    id: 6,
+    title: "Online Learning Platform",
+    description:
+      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
+    subDescription: [
+      "Built using Blazor WebAssembly for a seamless SPA experience.",
+      "Implemented video streaming with Azure Media Services.",
+      "Added a quiz system with dynamic question generation and real-time grading.",
+      "Integrated Stripe API for secure payment processing.",
+    ],
+    href: "",
+    logo: "",
+    image: "/assets/projects/elearning.jpg",
+    tags: [
+      {
+        id: 1,
+        name: "Blazor",
+        path: "/assets/logos/blazor.svg",
+      },
+      {
+        id: 2,
+        name: "Azure",
+        path: "/assets/logos/azure.svg",
+      },
+      {
+        id: 3,
+        name: "Stripe",
+        path: "/assets/logos/stripe.svg",
+      },
+      {
+        id: 4,
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+    ],
+  },
 ];
 
 export const mySocials = [
